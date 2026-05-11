@@ -2,6 +2,9 @@
 
 Bu proje, Sayısal Görüntü İşleme dersi dönem projesi kapsamında geliştirilmiş, **OpenCV** kütüphanesi kullanılarak görüntü üzerinden yüz algılama ve algılanan yüzlerin sisteme kayıtlı yüzlerle eşleştirilmesini sağlayan bir makine öğrenmesi sistemidir.
 
+<img width="1863" height="902" alt="image" src="https://github.com/user-attachments/assets/0b33615d-d0b3-4dea-86d9-50932a99e501" />
+
+
 ## 📌 Proje Konusu
 Projede, OpenCV kütüphanesinde yer alan **HaarCascade** algoritması kullanılarak görüntü üzerinden yüzler algılanmaktadır. Algılanan yüzler, sisteme daha önceden kaydedilmiş yüz verileriyle **LBPH (Local Binary Patterns Histograms)** algoritması kullanılarak karşılaştırılır. Eşleşme sağlanırsa kişinin adı ekranda yeşil bir çerçeve ile gösterilir. Yüz sistemde kayıtlı değilse kullanıcıya kırmızı bir çerçeve ile "Kayitli Degil" mesajı verilir.
 
