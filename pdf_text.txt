@@ -1,0 +1,49 @@
+SAYISAL GÖRÜNTÜ İŞLEME DÖNEM PROJESİ 
+ 
+HaarCascade ile Yüz Algılama ve Kayıtlı Yüzlerle Eşleştirme Sistemi  
+1. Proje Konusu 
+Proje Google Colab ortamında yapılacak ve görüntüler drive’a aşağıda gösterilen klasör 
+yapısında yüklenecektir. Proje kodu  “ödev-sgi-ögrenci numarası.ipynb” uzantısıyla 
+indirilecektir.Bu proje kapsamında OpenCV kütüphanesinde yer alan HaarCascade 
+algoritması kullanılarak görüntü üzerinden yüz algılama işlemi gerçekleştirilecektir. 
+Algılanan yüzler daha sonra drive’a yüklenen kayıtlı olan yüz görüntüleriyle 
+karşılaştırılacak ve eşleşme sağlanırsa kişinin adı ekranda gösterilecektir. Eğer yüz 
+sistemde kayıtlı değilse kullanıcıya “Kayıtlı Değil” mesajı verilecektir. 
+2. Klasör Yapısı 
+Proje Google Drive üzerinde aşağıdaki klasör yapısına göre düzenlenmiştir. Ödevde kendi 
+belirlediğiniz Türk sinema/dizi oyuncuları görüntüleri kullanılacak ve  kendi ismiyle 
+oluşturulan klasörün içine yerleştirilecektir. Test klasöründe ana klasörde bulunan 
+yüzlerden farklı görüntüler ile test edilecektir. 
+/MyDrive/FaceProject/ 
+    oyuncu_yuzleri/ 
+        Ahmet/ 
+            1.jpg 
+            2.jpg 
+        Ayse/ 
+            1.jpg 
+            2.jpg 
+    test_images/ 
+        test1.jpg 
+        test2.jpg 
+ 
+3. Uygulama Çıktıları 
+Bu bölümde uygulamanın test görüntüleri üzerinde çalıştırılması sonucu elde edilen çıktılar 
+yer almalıdır. 
+  
+4. Projede Teslim Edilecek Dosyalar 
+Öğrenciler aşağıdaki dosyaları teslim edecektir: 
+1. Python kod dosyası (project.ipynb)  
+2. Proje raporu (Word)  
+3. Çıktı klasörü örneği (kayıtlı yüz klasörü içinde en az 10 kayıtlı yüz görüntüsü)  
+4. Ekran görüntüleri (algılama ve kayıt aşamasını gösteren) 
+5. Rapor İçeriği 
+1. Kullanılan algoritma adımları  
+2. Kod açıklaması (önemli bölümler anlatılmalı)  
+3. Uygulama çıktıları (ekran görüntüleri) 
+5. Son Teslim Tarihi 
+Ödev bireysel yapılacaktır. Ödevi yüklerken: “ödev-sgi-ögrenci numarası” 
+formatında yazdıktan sonra klasörleyip bu klasör içinde kod dosyası ve kod çıktı 
+görüntülerini içeren(her bir adım için ödev örneğinde olduğu gibi) Word dosyası şeklinde 
+yükleyiniz. Teams uygulamasına zipleyip yükleyiniz.  
+📌 Son Teslim Tarihi: 12 / 05 / 2026 
+ 
